@@ -16,7 +16,7 @@ const Navbar = () => {
         <span className="cart-item-qty">2</span>
       </button>
 
-      {/* {<Cart />} */}
+      {<Cart />}
     </div>
   );
 };
