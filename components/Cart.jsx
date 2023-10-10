@@ -30,7 +30,10 @@ const Cart = () => {
 
         <div className="product-container">
           <div className="product">
-            <img src={urlFor(item?.image[0])} className="cart-product-image" />
+            {/* <img
+                  src={urlFor(item?.image[0])}
+                  className="cart-product-image"
+                /> */}
             <div className="item-desc">
               <div className="flex top">
                 <h5>name</h5>
